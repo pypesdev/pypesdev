@@ -96,6 +96,7 @@ flowchart TD
 | repo | what it does | lang |
 |---|---|---|
 | **[coldflow](https://github.com/pypesdev/coldflow)** ⭐8 · 🍴2 | Open-source cold email that actually works. Stop paying enterprise prices — transparent, functional, accessible. | `TypeScript` |
+| **[dmarc-doctor](https://github.com/pypesdev/dmarc-doctor)** | `npx dmarc-doctor yourdomain.com` — diagnose SPF, DKIM, and DMARC in one command. Zero deps, CI-friendly. | `TypeScript` |
 | **[250-google-leads-in-30-seconds](https://github.com/pypesdev/250-google-leads-in-30-seconds)** ⭐1 | n8n workflow scrapes Google Maps → Notion. ~250 leads in ~30 seconds. | `n8n` |
 | **[agents](https://github.com/pypesdev/agents)** | Fast, lightweight tool for spinning up autonomous AI agents. | `Rust` |
 | **[meta-daily-adspend-update-sheet-n8n-workflow](https://github.com/pypesdev/meta-daily-adspend-update-sheet-n8n-workflow)** | Daily adspend / impressions / clicks from Meta Marketing API → Google Sheets. | `n8n` |
