@@ -1,44 +1,116 @@
-## Pypes LLC
+<div align="center">
 
-We write open-source software that helps people **find jobs**, **start businesses**, and **achieve FIRE** — financial independence, retire early.
+<a href="https://gethiringfunnel.com">
+  <img src="./assets/banner.svg" alt="Pypes — open source for jobs, business, and FIRE" width="100%" />
+</a>
 
----
+<br/>
 
-### Active venture — HiringFunnel
+<a href="https://gethiringfunnel.com"><img alt="HiringFunnel" src="https://img.shields.io/badge/active%20venture-HiringFunnel-EC4899?style=for-the-badge&labelColor=0F172A&logo=rocket&logoColor=white"/></a>
+<a href="mailto:jared@pypes.dev"><img alt="Email" src="https://img.shields.io/badge/jared@pypes.dev-22D3EE?style=for-the-badge&labelColor=0F172A&logo=maildotru&logoColor=white"/></a>
+<a href="https://github.com/pypesdev?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/open--source-A78BFA?style=for-the-badge&labelColor=0F172A&logo=github&logoColor=white"/></a>
 
-> Land a $200k+ engineering job in 90 days.
+<br/><br/>
 
-[gethiringfunnel.com](https://gethiringfunnel.com) · [app.gethiringfunnel.com](https://app.gethiringfunnel.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=find+jobs.;start+businesses.;achieve+FIRE.;ship+open+source+that+actually+works." />
+  <img alt="find jobs. start businesses. achieve FIRE. ship open source that actually works."
+       src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=720&lines=find+jobs.;start+businesses.;achieve+FIRE.;ship+open+source+that+actually+works." />
+</picture>
 
-1-on-1 career coaching for software engineers targeting senior roles, paired with an autonomous job-search pipeline:
-
-- **Scanner** — discovers roles from tracked company pages every 8h and scores them with Claude.
-- **Applier** — claims matched roles every 30m, fills application forms via headless browser, submits.
-- **Coaching** — resume optimization, interview prep, offer negotiation with a senior engineer.
-
-Clients average a **$58k** salary increase.
-
----
-
-### Popular repositories
-
-#### Find jobs
-
-- **[foxyapply](https://github.com/pypesdev/foxyapply)** — Stop copy-pasting the same answers into 50 LinkedIn Easy Apply forms. Runs a real browser, fills out applications with your info, and submits them while you do literally anything else. `TypeScript`
-- **[jobs](https://github.com/pypesdev/jobs)** — Job Application Bot. `Python`
-- **[resume-template](https://github.com/pypesdev/resume-template)** — Clean, opinionated resume template. `JavaScript`
-- **[3dportfolio-template](https://github.com/pypesdev/3dportfolio-template)** — 3D portfolio site starter. `JavaScript`
-- **[senior-fe-interview-prompt](https://github.com/pypesdev/senior-fe-interview-prompt)** — Interview prep prompt set for senior frontend roles. `TypeScript`
-
-#### Start businesses
-
-- **[coldflow](https://github.com/pypesdev/coldflow)** — Open-source cold email that actually works. Stop paying enterprise prices — transparent, functional, accessible. `TypeScript`
-- **[250-google-leads-in-30-seconds](https://github.com/pypesdev/250-google-leads-in-30-seconds)** — n8n workflow that scrapes Google Maps for business leads and lands them in Notion. ~250 leads in ~30s.
-- **[agents](https://github.com/pypesdev/agents)** — Fast, lightweight tool for spinning up autonomous AI agents. `Rust`
-- **[meta-daily-adspend-update-sheet-n8n-workflow](https://github.com/pypesdev/meta-daily-adspend-update-sheet-n8n-workflow)** — n8n workflow that pushes daily adspend, impressions, and link clicks from the Meta Marketing API into Google Sheets.
+</div>
 
 ---
 
-### Contact
+## ▎ what is this place
 
-`jared@pypes.dev`
+```ts
+const pypes = {
+  mission: "help people escape the 9–5",
+  tools: ["find jobs", "start businesses", "achieve FIRE"],
+  license: "MIT, mostly",
+  vibes: "ship > talk",
+} as const;
+```
+
+We write open-source software so the path to financial independence stops being a secret club. **No paywalls on the things that matter. No SaaS rent on the building blocks of your life.**
+
+---
+
+## ▎ active venture — HiringFunnel
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+> ### Land a $200k+ engineering job in 90 days.
+
+A career-coaching platform with an autonomous job-search pipeline bolted to a senior engineer who has your back.
+
+- ⚡ **Scanner** — discovers roles every 8h, scores them with Claude
+- 🤖 **Applier** — claims matches every 30m, fills forms via headless browser, submits
+- 🧭 **Coaching** — resume, interview prep, offer negotiation, 1-on-1
+
+Clients average a **`+$58k`** salary jump.
+
+<a href="https://gethiringfunnel.com"><img alt="gethiringfunnel.com" src="https://img.shields.io/badge/gethiringfunnel.com-→-EC4899?style=flat-square&labelColor=0F172A"/></a>
+<a href="https://app.gethiringfunnel.com"><img alt="app.gethiringfunnel.com" src="https://img.shields.io/badge/app.gethiringfunnel.com-→-A78BFA?style=flat-square&labelColor=0F172A"/></a>
+
+</td>
+<td width="40%" valign="top">
+
+```mermaid
+flowchart TD
+    A([🌐 company sites]) --> B{{🔎 scanner}}
+    B -->|score| C[(🗂️ job_queue)]
+    C --> D{{🤖 applier}}
+    D --> E([📨 application sent])
+    E --> F([🎯 interview])
+    F --> G([💰 +$58k offer])
+    style G fill:#a78bfa,stroke:#22d3ee,color:#0b1020
+    style B fill:#22d3ee,stroke:#a78bfa,color:#0b1020
+    style D fill:#f472b6,stroke:#a78bfa,color:#0b1020
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## ▎ popular repos
+
+### 🧭 find jobs
+
+| repo | what it does | lang |
+|---|---|---|
+| **[foxyapply](https://github.com/pypesdev/foxyapply)** ⭐3 · 🍴2 | Stop copy-pasting answers into 50 LinkedIn Easy Apply forms. Real browser fills + submits while you do literally anything else. | `TypeScript` |
+| **[jobs](https://github.com/pypesdev/jobs)** | Job application bot. | `Python` |
+| **[resume-template](https://github.com/pypesdev/resume-template)** | Clean, opinionated resume site you can ship in an afternoon. | `JavaScript` |
+| **[3dportfolio-template](https://github.com/pypesdev/3dportfolio-template)** | 3D portfolio starter for engineers who want to flex a little. | `JavaScript` |
+| **[senior-fe-interview-prompt](https://github.com/pypesdev/senior-fe-interview-prompt)** | Battle-tested prompt set for senior frontend interviews. | `TypeScript` |
+
+### 🚀 start businesses
+
+| repo | what it does | lang |
+|---|---|---|
+| **[coldflow](https://github.com/pypesdev/coldflow)** ⭐8 · 🍴2 | Open-source cold email that actually works. Stop paying enterprise prices — transparent, functional, accessible. | `TypeScript` |
+| **[250-google-leads-in-30-seconds](https://github.com/pypesdev/250-google-leads-in-30-seconds)** ⭐1 | n8n workflow scrapes Google Maps → Notion. ~250 leads in ~30 seconds. | `n8n` |
+| **[agents](https://github.com/pypesdev/agents)** | Fast, lightweight tool for spinning up autonomous AI agents. | `Rust` |
+| **[meta-daily-adspend-update-sheet-n8n-workflow](https://github.com/pypesdev/meta-daily-adspend-update-sheet-n8n-workflow)** | Daily adspend / impressions / clicks from Meta Marketing API → Google Sheets. | `n8n` |
+
+---
+
+<div align="center">
+
+### `// pypesdev was here`
+
+<sub>built in public · powered by caffeine and compounding interest</sub>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=pypesdev&show_icons=true&hide_border=true&bg_color=0B1020&title_color=22D3EE&icon_color=A78BFA&text_color=CBD5E1&ring_color=F472B6" alt="pypesdev stats" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pypesdev&layout=compact&hide_border=true&bg_color=0B1020&title_color=22D3EE&text_color=CBD5E1" alt="top languages" height="160"/>
+
+</div>
