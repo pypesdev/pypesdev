@@ -110,7 +110,8 @@ flowchart TD
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=pypesdev&show_icons=true&hide_border=true&bg_color=0B1020&title_color=22D3EE&icon_color=A78BFA&text_color=CBD5E1&ring_color=F472B6" alt="pypesdev stats" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pypesdev&layout=compact&hide_border=true&bg_color=0B1020&title_color=22D3EE&text_color=CBD5E1" alt="top languages" height="160"/>
+<a href="https://github.com/pypesdev?tab=followers"><img alt="followers" src="https://img.shields.io/github/followers/pypesdev?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=0B1020&color=22D3EE"/></a>
+<a href="https://github.com/pypesdev/coldflow"><img alt="coldflow stars" src="https://img.shields.io/github/stars/pypesdev/coldflow?style=for-the-badge&logo=github&label=COLDFLOW&labelColor=0B1020&color=A78BFA"/></a>
+<a href="https://github.com/pypesdev/foxyapply"><img alt="foxyapply stars" src="https://img.shields.io/github/stars/pypesdev/foxyapply?style=for-the-badge&logo=github&label=FOXYAPPLY&labelColor=0B1020&color=F472B6"/></a>
 
 </div>
